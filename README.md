@@ -46,7 +46,7 @@ Does not decorate current region when the first character outside the region mar
 | ------------ | ---------------- | -------------- |
 | Bat | `::#region` or `REM #region` | `::#endregion` or `REM #endregion` |
 | C#/Coffeescript/PHP/PowerShell |`#region` | `#endregion` |
-| Python | `#region` or `# region` | `#endregion` or `# endregion` |
+| Python/Yaml | `#region` or `# region` | `#endregion` or `# endregion` |
 | Vue/TypeScript/JavaScript/Rust/Golang |`// #region` | `// #endregion` |
 | C/C++ | `#pragma region` | `#pragma endregion` |
 | Css/Less/Scss | `/*#region*/` | `/*#endregion*/` |

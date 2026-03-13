@@ -84,6 +84,7 @@ export function execLanguageRegExp(language: string) {
       return /^[ ]*(?:::|REM)\s*(?:(#region)|#endregion).*$/gm
     case EnumLanguage.VISUAL_BASIC:
       return /^[ ]*(?:(#Region)|#End Region)(?:[^0-9a-zA-Z\n].*)*$/gm
+    case EnumLanguage.YAML:
     case EnumLanguage.PYTHON:
       return /^[ ]*(?:(#\s*region)|#\s*endregion)(?:[^0-9a-zA-Z\n].*)*$/gm
     case EnumLanguage.PERL:
@@ -148,6 +149,7 @@ export function execLanguageDelimiter(language: string): delimiter | null {
       }
     case EnumLanguage.PHP:
     case EnumLanguage.PERL:
+    case EnumLanguage.YAML:
     case EnumLanguage.CSHARP:
     case EnumLanguage.PYTHON:
     case EnumLanguage.POWERSHELL:

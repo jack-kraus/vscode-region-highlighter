@@ -1,0 +1,57 @@
+# expression = /^[ ]*\/\/\s*(?:(#region(?:[^0-9a-zA-Z\n].*)*|<editor-fold>(?:[^\n]*))|#endregion(?:[^0-9a-zA-Z\n].*)*|<\/editor-fold>(?:[^\n]*))$/mg
+
+showing: true
+#region
+#endregion
+
+showing: true
+ #region
+#endregion
+
+showing: true
+#region
+ #endregion
+
+showing: true
+# region
+# endregion
+
+showing: true
+#region symbol
+#endregion
+
+showing: true
+#region [symbol]
+#endregion
+
+showing: true
+#region 符号
+#endregion
+
+showing: true
+#region-symbol
+#endregion
+
+showing: true
+#region
+# endregion
+
+showing: false
+#regions
+#endregion sd
+
+showing: false
+123# region 
+#endregion
+
+showing: false
+#regions
+#endregion
+
+showing: false
+#region
+#endregions
+
+showing: false
+##region
+#endregions
