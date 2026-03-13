@@ -114,7 +114,7 @@ function getDecoratedRegions(
 ) {
   const defaultColor = config.get(EnumContributes.DEFAULT_COLOR, '#C9C4E930')
   const extraColorStrategy =
-    config.get(EnumContributes.EXTRA_COLOR_STRATEGY, EnumExtraColorStrategy.CUSTOM_THEME_LAST_COLOR)
+    config.get(EnumContributes.EXTRA_COLOR_STRATEGY, EnumExtraColorStrategy.WRAPAROUND_COLOR)
 
   return positions.reduce(
     (result: decoratePosition[], item: position, index: number) => {

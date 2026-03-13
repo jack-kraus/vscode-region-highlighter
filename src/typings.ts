@@ -43,6 +43,7 @@ export enum EnumExtraColorStrategy {
   DEFAULT_COLOR = 'Default Color',
   CUSTOM_THEME_LAST_COLOR = 'Custom Theme Last Color',
   CUSTOM_THEME_FIRST_COLOR = 'Custom Theme First Color',
+  WRAPAROUND_COLOR = 'Wraparound Color'
 }
 
 export enum EnumLanguage {

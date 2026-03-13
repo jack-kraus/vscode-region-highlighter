@@ -101,12 +101,14 @@
           "enum": [
             "Default Color",
             "Custom Theme First Color",
-            "Custom Theme Last Color"
+            "Custom Theme Last Color",
+            "Wraparound Color"
           ],
           "enumDescriptions": [
             "Using default color to decorated overflow regions",
             "Using custom theme first color to decorated overflow regions",
-            "Using custom theme last color to decorated overflow regions"
+            "Using custom theme last color to decorated overflow regions",
+            "When going over the color limit, wraparound to the beginning"
           ],
           "description": "The decoration strategy chosen when the length of region blocks in the editor exceeds the preset color length."
         }

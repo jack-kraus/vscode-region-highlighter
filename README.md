@@ -170,7 +170,8 @@ The decoration strategy chosen when the length of region blocks in the editor ex
 [
   "Default Color",
   "Custom Theme First Color",
-  "Custom Theme Last Color"
+  "Custom Theme Last Color",
+  "Wraparound Color"
 ]
 ```
 

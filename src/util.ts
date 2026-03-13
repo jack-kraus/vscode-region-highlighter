@@ -67,6 +67,9 @@ export function formatThemeWrapper(theme: regionStyle[]): regionStyle[] {
     case EnumExtraColorStrategy.DEFAULT_COLOR:
       result = defaultColor
       break
+    case EnumExtraColorStrategy.WRAPAROUND_COLOR:
+      result = colors[index % colors.length]?.color ?? ''
+      break
     case EnumExtraColorStrategy.CUSTOM_THEME_FIRST_COLOR:
       result = colors[0]?.color ?? ''
       break
