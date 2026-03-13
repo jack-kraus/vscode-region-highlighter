@@ -114,6 +114,7 @@
     }
   },
   "scripts": {
+    "build:prod": "yarn run vscode:prepublish && vsce package --allow-star-activation",
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",

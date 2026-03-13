@@ -63,6 +63,7 @@ export enum EnumLanguage {
   HTML = 'html',
   RUST = 'rust',
   RUBY = 'ruby',
+  YAML = 'yaml',
   SWIFT = 'swift',
   FSHARP = 'fsharp',
   CSHARP = 'csharp',
